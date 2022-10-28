@@ -102,14 +102,13 @@ img.picture2_2, img.picture3_2, img.picture3_4, img.picture4_2, img.picture1_2 {
 .picture3_2 {
     background-image: url(../images/catgirl2.png);
 }
+.picture3_3 {
+    /*  float - left*/
+    background-image: url(../images/catgirl3.png);
+}
 .picture3_4{
     background-image: url(../images/catgirl4.png);
 }
 .picture4_2  {
     background-image: url(../images/alise.png);
-}
-
-
-.picture3_3 {
-    background-image: url(../images/catgirl3.png);
 }
