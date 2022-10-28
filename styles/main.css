@@ -83,9 +83,16 @@ body {
 .autor {
     font-style: italic;
 }
+img.picture2_2, img.picture3_2 {
+    display: block;
+    float: right;
+    margin: 0 0 0px 5px;
+}
 
 .picture2_2 {
     background-image: url(../images/13doctor.png);
-    display: block;    
-    margin-right: 0 0 0 auto;
+}
+
+.picture3_2 {
+    background-image: url(../images/catgirl2.png);
 }
