@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body {
     background-color: #eee;
     margin: 0 auto;
@@ -15,11 +16,9 @@ body {
     flex-wrap: wrap;
     /* x2 контейнера  */
     min-width: 882px; /* dualism */
-    max-width: 1316px; /* min-width: 868px; */
+    max-width: 1316px; 
     justify-content: center;
-    box-sizing: border-box;
-
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;        
 }
 
 .goods {
@@ -32,6 +31,15 @@ body {
     border-radius: 15px;
     min-width: 200px;
     max-width: 400px;    
+
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+.goods h1 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .goods img {    
@@ -54,8 +62,20 @@ body {
     background-image: url(../images/tardis.png);
 }
 .picture3 {
-    background-image: url(../images/boy.png);
+    background-image: url(../images/catgirl.png);
 }
 .picture4 {
     background-image: url(../images/rabbit.png);
+}
+
+.making {
+    text-align: right;
+}
+.autor {
+    font-style: italic;
+}
+
+.picture2_2 {
+    background-image: url(../images/Тринадцятий_Доктор.jpg);    
+    float: right;    
 }
