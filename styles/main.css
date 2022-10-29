@@ -112,3 +112,7 @@ img.picture2_2, img.picture3_2, img.picture3_4, img.picture4_2, img.picture1_2 {
 .picture4_2  {
     background-image: url(../images/alise.png);
 }
+
+hr {
+    border-color: magenta;
+}
