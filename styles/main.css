@@ -17,7 +17,7 @@ body {
     flex-wrap: wrap;
     
     min-width: 882px; /* dualism = x2 контейнера  */
-    max-width: 1320px; /* x3 */
+    max-width: calc(100vw - 25px); /* x3 */
     justify-content: center;
     box-sizing: border-box;        
 }
