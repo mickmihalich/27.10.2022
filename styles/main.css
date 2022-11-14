@@ -16,7 +16,7 @@ body {
     /* перенос на след строку при заполнении */    
     flex-wrap: wrap;
     
-    min-width: 882px; /* dualism = x2 контейнера  */
+    min-width: 300px; /* dualism = x2 контейнера  */
     max-width: calc(100vw - 25px); /* x3 */
     justify-content: center;
     box-sizing: border-box;        
